@@ -69,14 +69,14 @@ This project introduces an **AI-powered chatbot** that automates customer servic
 ## ⚙️ System Workflow
 
 ```mermaid
-graph TD;
-A[User Input] --> B[Greeting Check];
-B -->|Yes| C[Send Greeting Response];
-B -->|No| D[FAQ Matching];
-D -->|Found| E[Return Answer];
-D -->|Not Found| F[AI Response (TinyLlama)];
-F --> G[Store Chat History];
-G --> H[Display Response];
+graph TD
+A[User Input] --> B[Greeting Check]
+B -->|Yes| C[Send Greeting Response]
+B -->|No| D[FAQ Matching]
+D -->|Found| E[Return Answer]
+D -->|Not Found| F[AI Response (TinyLlama)]
+F --> G[Store Chat History]
+G --> H[Display Response]
 ```
 
 ---
