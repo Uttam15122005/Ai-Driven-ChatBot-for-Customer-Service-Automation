@@ -74,11 +74,10 @@ A[User Input] --> B[Greeting Check]
 B -->|Yes| C[Send Greeting Response]
 B -->|No| D[FAQ Matching]
 D -->|Found| E[Return Answer]
-D -->|Not Found| F[AI Response (TinyLlama)]
+D -->|Not Found| F[AI Response - TinyLlama]
 F --> G[Store Chat History]
 G --> H[Display Response]
 ```
-
 ---
 
 ## 🧠 Algorithm
